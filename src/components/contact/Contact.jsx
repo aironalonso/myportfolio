@@ -41,6 +41,11 @@ const Contact = () => {
                     <h1 className="c-title">
                         Let's discuss your project
                     </h1>
+                    <p className='c-sub'>
+                        I want to bring my collective design experience to the table where we can work together to solve real business-problems in a way that optimizes all of our respective experience and knowledge.
+
+                        {/* I'm seeking out opportunities to collaborate with companies / agencies / individuals, not just work for them.  */}
+                    </p>
                     <div className="c-info">
                         <div className="c-info-item">
                             <img
@@ -48,7 +53,9 @@ const Contact = () => {
                                 className="c-icon"
                                 src={Phone}
                             />
-                            +63 926 133 5981
+                            <span>
+                                +63 926 133 5981
+                            </span>
                         </div>
                         <div className="c-info-item">
                             <img
@@ -56,7 +63,9 @@ const Contact = () => {
                                 className="c-icon"
                                 src={Email}
                             />
-                            eronjoswaalonso@gmail.com
+                            <span>
+                                eronjoswaalonso@gmail.com
+                            </span>
                         </div>
                         <div className="c-info-item">
                             <img
@@ -64,7 +73,9 @@ const Contact = () => {
                                 className="c-icon"
                                 src={Address}
                             />
-                            483 Anne's Apt. Balaga Subd. Kampupot St. Bagong Bayan, Malolos, Bulacan
+                            <span>
+                                483 Anne's Apt. Balaga Subd. Kampupot St. Bagong Bayan, Malolos, Bulacan
+                            </span>
                         </div>
                     </div>
                 </div>

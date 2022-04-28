@@ -20,7 +20,9 @@ const Intro = () => {
                         </div>
                     </div>
                     <p className="intro-description">
-                        I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.
+                        Experienced Web Developer adept in all stages of advanced web development. Knowledgable in user interface, testing, and debugging processes. Bringing forth expertise in design, installation, testing and maintenance of web systems. 
+
+                        {/* I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. */}
                     </p>
                 </div>
                 <svg

@@ -1,5 +1,5 @@
 .c {
-    height: 100vh;
+    height: 100%;
     position: relative;
 }
 
@@ -21,6 +21,11 @@
 
 .c-title {
     font-size: 60px;
+    width: 90%;
+}
+
+.c-sub {
+    font-weight: 300;
     width: 80%;
 }
 
@@ -95,6 +100,7 @@ button:hover {
     }
 
     .c-info-item {
+        gap: 2px;
         margin: 20px 0px;
         width: 100%;
     }
@@ -117,6 +123,10 @@ button:hover {
     }
 
     button {
-        margin-top: 10px;
+        margin: 10px 0px;
+    }
+
+    .c-icon {
+        margin-right: 0;
     }
 }

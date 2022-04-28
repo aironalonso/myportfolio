@@ -10,8 +10,9 @@ const ProductList = () => {
                 <h1 className="pl-title">
                     Create & inspire. It's Airon
                 </h1>
+                <h4 className='pl-sub'>My recent works</h4>
                 <p className="pl-desc">
-                    Airon is creative portfolio that your work has been waiting for. Beautiful homes, stunning portfolio styles & a whole lot more awaits inside
+                    Here are a few design projects I've worked on recently. Want to see more? Email me.
                 </p>
             </div>
             <div className="pl-list">

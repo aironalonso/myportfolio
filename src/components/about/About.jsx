@@ -18,16 +18,12 @@ const About = () => {
             <div className="about-right">
                 <h1 className="about-title">About Me</h1>
                 <p className="about-sub">
-                    It is a long established fact that a reader will be distracted by the
-                    readable content.
+                    I am Airon. Equipped  with a diverse and promising skill-set. A Hard-working web developer with a flair for creating elegant solutions in the least amount of time.
                 </p>
                 <p className="about-desc">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+                    Proficient in an assortment of technologies, including, (HTML, CSS, JavaScript, ReactJS, etc...)Able to effectively self-manage during independent projects, as well as collaborate in a team setting.
                 </p>
-                <div className="about-award">
+                {/* <div className="about-award">
                     <img src={Award} alt="award" className="about-award-img" />
                     <div className="about-award-texts">
                         <h4 className="about-award-title">International Design Awards 2021</h4>
@@ -36,7 +32,7 @@ const About = () => {
                             and fugit.
                         </p>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     );
