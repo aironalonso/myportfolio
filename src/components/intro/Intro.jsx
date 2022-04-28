@@ -1,6 +1,6 @@
 import React from 'react';
 import './intro.css';
-import Airon from "../../img/myPhoto.png";
+import Airon from "../../img/aironAlonso.png";
 
 const Intro = () => {
     return (

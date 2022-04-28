@@ -2,6 +2,7 @@ import React from 'react';
 import "./product.css";
 
 const Product = ({img, link}) => {
+  console.log(img)
   return (
     <div className='prod'>
         <div className="prod-browser">

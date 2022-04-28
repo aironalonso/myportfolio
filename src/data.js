@@ -1,28 +1,34 @@
+import Resume from "./dataImage/e-resume-mobile-large.jpg";
+import Google from "./dataImage/recreate-google.jpg";
+import Tanbayan from "./dataImage/tanbayan.jpg";
+import Calculator from "./dataImage/samsung-calculator.png";
+import Journal from "./dataImage/coding-journal-no-bg.png";
+
 export const products = [
     {
         id: 1,
-        img: "",
-        link: ""
+        img: Resume,
+        link: "https://aironalonso.github.io/e-resume/"
     },
     {
         id: 2,
-        img: "",
-        link: ""
+        img: Google,
+        link: "https://aironalonso.github.io/google.github.io/"
     },
     {
         id: 3,
-        img: "",
-        link: ""
+        img: Tanbayan,
+        link: "https://aironalonso.github.io/"
     },
     {
         id: 4,
-        img: "",
-        link: ""
+        img: Calculator,
+        link: "https://aironalonso.github.io/calculator.github.io/"
     },
     {
         id: 5,
-        img: "",
-        link: ""
+        img: Journal,
+        link: "https://codingjournal.netlify.app/"
     },
     {
         id: 6,
