@@ -1,13 +1,18 @@
-import React, { useRef, useState } from 'react';
+import React, { useContext, useRef, useState } from 'react';
 import "./contact.css"
 import Address from "../../img/address.png";
 import Email from "../../img/email.png";
 import Phone from "../../img/phone.png";
 import emailjs from '@emailjs/browser';
+import { ThemeContext } from '../../context';
 
 const Contact = () => {
     const formRef = useRef();
     const [done, setDone] = useState(false);
+
+    const theme = useContext(ThemeContext);
+
+    const darkMode = theme.state.darkMode;
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -73,22 +78,27 @@ const Contact = () => {
                         <input
                             name="user_name"
                             placeholder="Name"
+                            style={{ backgroundColor: darkMode && '#333' }}
                             type="text"
                         />
                         <input
                             name="user_subject"
                             placeholder="Subject"
+                            style={{ backgroundColor: darkMode && '#333' }}
                             type="text"
                         />
                         <input
                             name="user_email"
                             placeholder="Email"
+                            style={{ backgroundColor: darkMode && '#333' }}
                             type="text"
                         />
                         <textarea
                             name="message"
                             placeholder="Message"
-                            rows="5">
+                            rows="5"
+                            style={{ backgroundColor: darkMode && '#333' }}
+                        >
                         </textarea>
                         <button>Submit</button>
                         {done && 'Thank you...'}

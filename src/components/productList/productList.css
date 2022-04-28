@@ -16,7 +16,7 @@
 }
 
 .pl-desc {
-    margin: 20px 0;
+    margin: 20px 0px;
 }
 
 .pl-list {
@@ -24,4 +24,18 @@
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+    .pl {
+        padding: 10px;
+    }
+
+    .pl-texts {
+        width: 100%;
+    }
+
+    .pl-desc {
+        display: none;
+    }
 }

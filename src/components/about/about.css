@@ -43,7 +43,7 @@
 }
 
 .about-sub {
-    margin: 20px 0;
+    margin: 20px 0px;
 }
 
 .about-desc {
@@ -71,4 +71,29 @@
     color: #555;
     font-weight: bold;
     margin-bottom: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .about {
+        flex-direction: column;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .about-left {
+        width: 100%;
+    }
+
+    .about-card {
+        height: 30vh;
+    }
+
+    .about-card.bg,
+    .about-award {
+        display: none;
+    }
+
+    .about-right {
+        padding: 20px;
+    }
 }
