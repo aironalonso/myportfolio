@@ -64,7 +64,7 @@ const Contact = () => {
                                 src={Email}
                             />
                             <span>
-                                eronjoswaalonso@gmail.com
+                                alonsoairon@gmail.com
                             </span>
                         </div>
                         <div className="c-info-item">
