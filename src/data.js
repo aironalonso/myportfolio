@@ -3,6 +3,7 @@ import Google from "./dataImage/recreate-google.jpg";
 import Tanbayan from "./dataImage/tanbayan.jpg";
 import Calculator from "./dataImage/samsung-calculator.png";
 import Journal from "./dataImage/coding-journal-no-bg.png";
+import WeBuild from "./dataImage/we-build-proj.jpg";
 
 export const products = [
     {
@@ -32,7 +33,7 @@ export const products = [
     },
     {
         id: 6,
-        img: "",
+        img: WeBuild,
         link: ""
     }
 ]
