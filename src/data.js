@@ -14,7 +14,7 @@ export const products = [
     {
         id: 2,
         img: Google,
-        link: "https://aironalonso.github.io/google.github.io/"
+        link: "https://aironalonso.github.io/google/"
     },
     {
         id: 3,
