@@ -1,9 +1,9 @@
 import Resume from "./dataImage/e-resume-mobile-large.jpg";
-import Google from "./dataImage/recreate-google.jpg";
+import Google from "./dataImage/recreate-google-mobile.jpg";
 import Tanbayan from "./dataImage/tanbayan.jpg";
 import Calculator from "./dataImage/samsung-calculator.png";
 import Journal from "./dataImage/coding-journal-no-bg.png";
-import WeBuild from "./dataImage/we-build-proj.jpg";
+import WeBuild from "./dataImage/we-build-proj-final.jpg";
 
 export const products = [
     {
@@ -34,6 +34,6 @@ export const products = [
     {
         id: 6,
         img: WeBuild,
-        link: ""
+        link: "https://webuildproj.netlify.app/"
     }
 ]
