@@ -34,6 +34,6 @@ export const products = [
     {
         id: 6,
         img: WeBuild,
-        link: "https://webuildproj.netlify.app/"
+        link: "https://webuildproj.herokuapp.com/"
     }
 ]
