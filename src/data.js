@@ -29,7 +29,7 @@ export const products = [
     {
         id: 5,
         img: Journal,
-        link: "https://codingjournal.netlify.app/"
+        link: "https://coding-journal-proj.herokuapp.com/"
     },
     {
         id: 6,
